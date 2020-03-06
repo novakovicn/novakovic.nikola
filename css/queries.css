@@ -1,209 +1,212 @@
-@media screen and (min-width:800px) and (max-width:1300px){
-    #naslovna{
-        background-position: left center;
+@media screen and (min-width:800px) and (max-width:1300px) {
+    #naslovna {
+        background-position: left center
     }
-    #ime h1{
-        font-size: 60px;
+    #ime h1 {
+        font-size: 60px
     }
-    #ime h2{
-        font-size: 45px;
+    #ime h2 {
+        font-size: 45px
     }
-    #podaci{
-        width:90%;
-        padding:10px;
+    #podaci {
+        width: 90%;
+        padding: 10px
     }
-    #slika{
-        margin-right: 30px;
-        width:60%;
-    }
-   
-    #tekst{
+    #slika img {
         width: 100%;
+        margin-top: 40px
     }
-   
-    #tekst{
-        order: 2;
+    #tekst {
+        width: 100%;
+        padding: 40px
     }
-    #slika{
-        order: 1;
+    #tekst {
+        order: 2
     }
-     
-    .skill{
-        width:50%;
+    #slika {
+        order: 1
     }
-    .bar{
-        width:90%;
+    .skill {
+        width: 50%
     }
-    
-    #forma{
-        width:60%;
+    .bar {
+        width: 90%
     }
-   
-    .folija a{
-        width:60%;
-        top:35%;
-        font-size:10px;
+    #forma {
+        width: 60%
     }
-    .folija p{
-        width:75%;
-        top:35%;
-        font-size: 15px;
+    .folija a {
+        width: 60%;
+        top: 35%;
+        font-size: 10px
+    }
+    .folija p {
+        width: 75%;
+        top: 35%;
+        font-size: 15px
     }
 }
-@media screen and (max-width:800px){ 
-    #naslovna{
-        background-position: left center;
+
+@media screen and (max-width:800px) {
+    #naslovna {
+        background-position: left center
     }
-    #skills{
-        background-position:right center;
-         };
-    #ime h1{
-        font-size: 60px;
+    #skills {
+        background-position: right center
     }
-    #ime h2{
-        font-size: 45px;
+    ;
+    #ime h1 {
+        font-size: 60px
     }
-    #hnav ul li{
-        padding: 10px 15px;
+    #ime h2 {
+        font-size: 45px
     }
-    #podaci{
-        width:100%;
-        padding:10px;
-        display: block;
+    #hnav ul li {
+        padding: 10px 15px
     }
-    #tekst,#slika{
-        width:100%;
-        margin-top: 20px;
+    #podaci {
+        width: 100%;
+        padding: 10px;
+        display: block
     }
-   
-    #tekst{
-        order: 2;
+    #tekst {
+        width: 100%;
+        margin-top: 20px
     }
-    #slika{
-        order: 1;
+    #slika img {
+        width: 70%;
+        margin-top: 20px
     }
-     
-    .skill{
-        width:50%;
-        margin:20px 0px;
+    #tekst {
+        order: 2
     }
-    .bar{
-        width:80%;
+    #slika {
+        order: 1
     }
-    
-     .projekat{
-        width:70%;
-        margin:20px
+    .skill {
+        width: 50%;
+        margin: 20px 0
     }
-    .uc{
-        padding:10px;
+    .bar {
+        width: 80%
     }
-    #works{
-        padding: 0px;
+    .projekat {
+        width: 70%;
+        margin: 20px
     }
-    .folija a{
-        top:45%;
+    .uc {
+        padding: 10px
+    }
+    #works {
+        padding: 0
+    }
+    .folija a {
+        top: 45%;
         font-size: 17px;
-        width:60%;
+        width: 60%
     }
-    .folija p{
-        width:70%;
-        top:45%;
-        font-size: 15px;
+    .folija p {
+        width: 70%;
+        top: 45%;
+        font-size: 15px
     }
-    
-    #contact{
-        padding-top:20vh;
+    #contact {
+        padding-top: 20vh
     }
-    #forma,#button{
-        width:100%;
+    #forma,
+    #button {
+        width: 100%
     }
-   
 }
-@media screen and (max-width:500px){
-   
-   
-    #hnav ul{
-        display: none;
+
+@media screen and (max-width:500px) {
+    #hnav ul {
+        display: none
     }
-    #hnav ul li{
-       display: inline-block;  
+    #hnav ul li {
+        display: inline-block
     }
-    #resmeni{
+    #resmeni {
         display: contents;
-         width: 50px;
+        width: 50px
     }
-    #resmeni i{
+    #resmeni i {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-end
     }
-    #hnav:hover ul{
-        display:block;
+    #hnav:hover ul {
+        display: block
     }
-    #ime h1{
-        font-size: 40px;
+    #ime {
+        margin-top: 15vh
     }
-    #ime h2{
-        font-size:30px;
-        margin-top: 70px;
+    #ime h1 {
+        font-size: 40px
     }
-    .skill,.bar{
-        width:100%;
+    #ime h2 {
+        font-size: 30px;
+        margin-top: 70px
     }
-    
-    #podaci{
-        width:100%;
+    .skill,
+    .bar {
+        width: 100%
+    }
+    #podaci {
+        width: 100%;
         padding: 20px;
-        display: block;
+        display: block
     }
-    #tekst,#slika{
-        width:100%;
+    #tekst,
+    #slika {
+        width: 100%;
         margin-top: 20px;
-        padding:0px;
-        font-size: 20px;
+        padding: 0;
+        font-size: 20px
     }
-    
-    .naziv{
-        width:100%;
-        background-color:transparent;
+    #tekst {
+        text-align: left;
+        padding: 19px
     }
-    
-    .projekat{
-        width:100%;
-        margin:20px
+    .naziv {
+        width: 100%;
+        background-color: transparent
     }
-    .folija a{
-        width:48%;
-        top:33%;
-        font-size: 17px;
+    .projekat {
+        width: 100%;
+        margin: 20px
     }
-    .folija p{
-        width:70%;
-        top:33%;
-        font-size: 25px;
+    .folija a {
+        width: 48%;
+        top: 33%;
+        font-size: 17px
     }
-    footer p{font-size: 18px;}
-    #followMe li{
-        padding: 15px;
+    .folija p {
+        width: 70%;
+        top: 33%;
+        font-size: 25px
     }
-    #dodatak li{
-        padding:10px 0px 0px 0px;
+    footer p {
+        font-size: 18px
     }
-    #dodatak span{
-        margin:0px;
+    #followMe li {
+        padding: 15px
     }
-
-
+    #dodatak li {
+        padding: 10px 0 0 0
+    }
+    #dodatak span {
+        margin: 0
+    }
 }
 
-@media screen and (max-height:400px){
-    #ime{
-        margin-top:0vh; 
+@media screen and (max-height:400px) {
+    #ime {
+        margin-top: 0vh
     }
-    #ime h2{
-        margin-top:20px;
+    #ime h2 {
+        margin-top: 20px
     }
-    #contact{
-        padding-top:35vh;
+    #contact {
+        padding-top: 35vh
     }
 }

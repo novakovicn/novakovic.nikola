@@ -48,6 +48,7 @@ ul{
 }
 a{
     text-decoration: none;
+    
 }
 .fas{
     margin-left:10px;
@@ -179,7 +180,7 @@ a{
     width:30%;
     margin-top:10px;
     font-size:17px;
-    padding:20px;
+    padding: 0px 10px;
     text-align: justify;
 }
 
@@ -284,7 +285,7 @@ a{
     opacity: 0;
     height: 100%;
     width:100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(244, 247, 246, 0.8);
     a{
         @include trans;
         @include projectHover;
@@ -316,23 +317,88 @@ a{
     }
     &:hover {
         color: $bela;
-        p{
-            display: none;
-        }
-        .fas{
-            display: block;
-            font-size: 20px;
-            text-align: center;
-        }
+       
+       
        
         border: 2px solid $plava;
     }
 }
 
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    max-width: 80%;
+    
+  }
+  #modal1{
+      height: 300px;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 5px 15px;
+    text-align: end;
+    
+    
+    
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: end;
+    margin: 0px auto;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+    text-align: center;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
 
+.school{
+    color: $plava;
+}
 
 #contact{
-    background-color: #353334;
+    
     position: relative;
     padding:20px;
     text-align: center;
@@ -384,7 +450,7 @@ input,textarea{
 button{
     @include trans;
     border: 2px solid transparent;
-    background-color:#979797;
+    background-color:#969292;
     border-radius: 5px;
     padding:10px;
     font-size:35px;

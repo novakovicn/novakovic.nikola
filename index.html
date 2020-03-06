@@ -9,8 +9,8 @@
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'/>
         <meta charset="utf-8" />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-        <meta name="keywords" content="web,junior,developer,works,skills,portfolio" />
-        <meta name="description" content="Portfolio of Nikola Novakovic beginner web designer from Serbia.Here is information about him,about his skills,about his works and his contact." />
+        <meta name="keywords" content="nikola novakovic,nikola novakovic web developer,html web developer,css web developer,web developer" />
+        <meta name="description" content="Portfolio about Nikola Novakovic web developer from Serbia. There is some information about me and my work. Feel free for each type of question, visit the contact page. Welcome!" />
     </head>
     <body>
         <header id="naslovna">
@@ -25,7 +25,7 @@
             </nav>
             <section id="ime">
                 <h1><a href="#about">Nikola Novakovic</a></h1>
-                <h2><a href="#skills">Portfolio</a></h2>
+                <h2><a href="#skills">Web developer</a></h2>
             </section>
         </header>
         <main>
@@ -34,22 +34,44 @@
                 data-aos-anchor-placement="bottom-bottom" data-aos-once="true"><a name="works" >My works</a></h2>
                 <article id="projekti">
                     <div class="projekat" data-aos="fade-right" data-aos-once="true">
-                        <div class="slika"><img src="images/bub-bum.png" alt="Site" /><div class="folija"><a href="#" target="blank">Visit</a></div></div>
+                        <div class="slika"><img src="images/bub-bum.png" alt="Site" /><div class="folija"><a href="#modal" data-modal-target="#modal" target="blank">Visit</a></div></div>
                         <p><i class='fas fa-info-circle'></i>BUM-BUM</p>
                         <p><i class='fas fa-code'></i>HTML,CSS &nbsp;&nbsp;&nbsp;&nbsp;</p>
                     </div>
                     <div class="projekat" data-aos="zoom-in" data-aos-once="true">
-                        <div class="slika"><img src="images/coming_soon.jpg" alt="Coming soon" /><div class="folija"><a href="#" target="blank">Soon</a></div></div>
+                        <div class="slika"><img src="images/coming_soon.jpg" alt="Coming soon" /><div class="folija"><a href="#modal" data-modal-target="#modal" target="blank">Soon</a></div></div>
                         <p><i class='fas fa-info-circle'></i>Comforser tires</p>
                         <p><i class='fas fa-code'></i>Bootstrap &nbsp;&nbsp;&nbsp;&nbsp;</p>
                     </div>
                     <div class="projekat" data-aos="fade-left" data-aos-once="true">
-                        <div class="slika"><img src="images/coming_soon.jpg" alt="Coming sonn" /><div class="folija"><a href="#" target="blank">Soon</a></div></div>
+                        <div class="slika"><img src="images/coming_soon.jpg" alt="Coming sonn" /><div class="folija"><a href="#modal" data-modal-target="#modal" target="blank">Soon</a></div></div>
                         <p class="uc"><i class='fas fa-info-circle'></i>In Prepare</p>
                     </div>
+                    <div class="modal" id="modal">
+                        <div class="modal-header">
+                          <div class="title"></div>
+                          <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                               <h2>Hosting is currently unavailable</h2>
+                               <h2>Sorry</h2>
+                        </div>
+                      </div>
+                      <div id="overlay"></div>
                     
                 </article>
-                <button id="dugmeJos"><p>Show more</p><i class="fas fa-angle-double-down"></i></button>
+                <button id="dugmeJos" data-modal-target="#modal1"><p>Show more</p></button>
+                <div class="modal" id="modal1">
+                    <div class="modal-header">
+                      <div class="title"></div>
+                      <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body" id="more">
+                           <h2>Coming Soon More!</h2>
+                           <h2>Stay tuned...</h2>
+                    </div>
+                  </div>
+                  <div id="overlay"></div>
             </section>
         <section id="skills">
             <h2 class="crta vel" data-aos="fade-up"
@@ -101,7 +123,7 @@
                 <img src="images/profil1.png" alt="Profilna" />
             </div>
             <div id="tekst" data-aos="fade-left" data-aos-once="true">
-                <p>I'm Nikola Novakovic and I'm a young web developer, i'm still a beginner but with a lot of knowledge. You can see below what I know exactly and how much. If you have any questions feel free to ask. Welcome!</p>
+                <p>I'm "Nikola Novakovic" and I'm currently studying web development at <a class="school" href="https://www.ict.edu.rs/">"Visoka ICT škola"</a> and graduated at <a class="school" href="https://www.ict.edu.rs/">"ETŠ Nikola Tesla"</a> High School. I'm still a beginner, but with lots of web development knowledge. You can see at this portfolio what I know exactly and how much. If you have any questions feel free to ask. Welcome!</p>
             </div>
            
             </div>
